@@ -6,11 +6,18 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import MainRoute from './layout/MainRoute';
+import Donation from './components/Donation/Donation';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainRoute></MainRoute>,
+    children: [
+      {
+        path: "/donation",
+        element: <Donation></Donation>
+      }
+    ]
   },
 ]);
 
