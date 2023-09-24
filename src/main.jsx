@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import MainRoute from './layout/MainRoute';
 import Donation from './components/Donation/Donation';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,11 @@ const router = createBrowserRouter([
       {
         path: "/donation",
         element: <Donation></Donation>
-      }
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>
+      },
     ]
   },
 ]);
