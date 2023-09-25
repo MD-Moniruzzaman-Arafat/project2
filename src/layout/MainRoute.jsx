@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 const MainRoute = () => {
     return (
         <>
-            <div className="mx-10 my-5">
+            <div className="">
                 <Header></Header>
                 <Outlet></Outlet>
             </div>
@@ -13,3 +13,5 @@ const MainRoute = () => {
 };
 
 export default MainRoute;
+
+// https://i.ibb.co/5TDYcs8/Rectangle-4281.png

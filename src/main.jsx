@@ -8,12 +8,17 @@ import {
 import MainRoute from './layout/MainRoute';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
+import Banner from './components/Banner/Banner';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainRoute></MainRoute>,
     children: [
+      {
+        path: "/",
+        element: <Banner></Banner>
+      },
       {
         path: "/donation",
         element: <Donation></Donation>
