@@ -8,7 +8,6 @@ import {
 import MainRoute from './layout/MainRoute';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
-import Cards from './components/Cards/Cards';
 import Home from './components/Home/Home';
 
 const router = createBrowserRouter([
@@ -20,10 +19,6 @@ const router = createBrowserRouter([
         path: "/",
         loader: () => fetch('data.json'),
         element: <Home></Home>
-      },
-      {
-        path: "/",
-        element: <Cards></Cards>
       },
       {
         path: "/donation",
