@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/pz1hJ6k/Clothing.png",
+        "title": "Warm Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Donate warm clothing to help those in need stay warm during the winter months.",
+        "price": "Free"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/JzCd9yK/Education.png",
+        "title": "Education Scholarship Fund",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#f39c12",
+        "description": "Support education by contributing to scholarships for underprivileged students.",
+        "price": "Minimum Donation: $25"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/sQyhxN3/Food.png",
+        "title": "Food Drive for the Homeless",
+        "category": "Food",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#3498db",
+        "description": "Provide food donations to help combat hunger among homeless individuals and families.",
+        "price": "Food Items"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/82VhHzS/Food.png",
+        "title": "Healthcare Supplies Relief",
+        "category": "Health",
+        "category_bg_color": "#e67e22",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#2c3e50",
+        "description": "Donate essential healthcare supplies to support those in need of medical assistance.",
+        "price": "Donations Welcome"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/JzCd9yK/Education.png",
+        "title": "Children's Education Fund",
+        "category": "Education",
+        "category_bg_color": "#1abc9c",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Contribute to educational opportunities for disadvantaged children.",
+        "price": "Minimum Donation: $20"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/sQyhxN3/Food.png",
+        "title": "Emergency Food Assistance",
+        "category": "Food",
+        "category_bg_color": "#f1c40f",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#9b59b6",
+        "description": "Provide emergency food assistance to families facing food scarcity due to crisis situations.",
+        "price": "Food Items"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/82VhHzS/Food.png",
+        "title": "Medical Supplies for Clinics",
+        "category": "Health",
+        "category_bg_color": "#2ecc71",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e67e22",
+        "description": "Support medical clinics by donating essential supplies and equipment.",
+        "price": "Donations Welcome"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/JzCd9yK/Education.png",
+        "title": "Educational Outreach Program",
+        "category": "Education",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#f1c40f",
+        "description": "Empower communities through educational outreach programs and resources.",
+        "price": "Minimum Donation: $30"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/sQyhxN3/Food.png",
+        "title": "Food for Families in Need",
+        "category": "Food",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#3498db",
+        "description": "Help provide food for struggling families and individuals in your community.",
+        "price": "Food Items"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/82VhHzS/Food.png",
+        "title": "Healthcare Access Project",
+        "category": "Health",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#2c3e50",
+        "description": "Support initiatives that improve access to healthcare services for underserved populations.",
+        "price": "Donations Welcome"
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/JzCd9yK/Education.png",
+        "title": "School Supplies Drive",
+        "category": "Education",
+        "category_bg_color": "#1abc9c",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Donate school supplies to help students excel in their studies.",
+        "price": "School Supplies"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/82VhHzS/Food.png",
+        "title": "Community Health Center Support",
+        "category": "Health",
+        "category_bg_color": "#2ecc71",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e67e22",
+        "description": "Assist community health centers in providing quality healthcare to those in need.",
+        "price": "Donations Welcome"
+    }
+]

@@ -14,4 +14,3 @@ const MainRoute = () => {
 
 export default MainRoute;
 
-// https://i.ibb.co/5TDYcs8/Rectangle-4281.png
