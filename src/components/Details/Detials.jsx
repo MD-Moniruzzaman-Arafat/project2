@@ -1,9 +1,14 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Detials = () => {
     const [details, setDetails] = useState({});
-    console.log(details)
+    // console.log(details)
+
+
 
     const { id } = useParams();
     // console.log(id)
@@ -19,6 +24,8 @@ const Detials = () => {
     const { card_bg_color, picture, text_button_bg_color, title, description, price } = details;
 
     const handleDonate = () => {
+
+        toast("donate success full");
         console.log(7)
         const addDonation = [];
 
@@ -30,8 +37,11 @@ const Detials = () => {
 
 
         } else {
+
             addDonation.push(...donationItem, details)
             localStorage.setItem('donation', JSON.stringify(addDonation))
+
+
 
         }
     }
@@ -40,7 +50,7 @@ const Detials = () => {
     return (
         <div>
 
-
+            <ToastContainer />
             <div className="card w-[700px] shadow-xl mx-auto my-5" style={{ backgroundColor: `${card_bg_color}`, }}>
                 <div style={{ position: 'relative' }}>
                     <img className='w-[700px]' src={picture} alt="Shoes" />
