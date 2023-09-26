@@ -1,15 +1,34 @@
-import { Pie, PieChart } from "recharts";
+import { useEffect, useState } from "react";
+import Chart from "react-google-charts";
 
 const Statistics = () => {
+    const [donetData, setDonetData] = useState([]);
 
-    const data02 = 2400
+
+    useEffect(() => {
+        const donetionItem = JSON.parse(localStorage.getItem('donation'))
+        setDonetData(donetionItem);
+    }, [])
+
+
+    const totalDonation = 12 - donetData.length;
+    const donate = donetData.length
+    console.log(totalDonation, donate)
+
 
     return (
         <>
-            <PieChart width={730} height={250}>
-                <Pie data={0} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
-                <Pie data={data02} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
-            </PieChart>
+            <Chart
+                chartType="PieChart"
+                data={[
+                    ['ww', 'rr'],
+                    ["totalDonat", totalDonation],
+                    ["donation", donate]
+
+                ]}
+                width={"100%"}
+                height={"400px"}
+            />
         </>
     );
 };
