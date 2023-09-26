@@ -8,7 +8,7 @@
         "card_bg_color": "#79C23F26",
         "text_button_bg_color": "#79C23F",
         "description": "Donate warm clothing to help those in need stay warm during the winter months.",
-        "price": "Free"
+        "price": "33"
     },
     {
         "id": 2,
@@ -19,7 +19,7 @@
         "card_bg_color": "#FF444A26",
         "text_button_bg_color": "#FF444A",
         "description": "Support education by contributing to scholarships for underprivileged students.",
-        "price": "Minimum Donation: $25"
+        "price": "25"
     },
     {
         "id": 3,
@@ -30,7 +30,7 @@
         "card_bg_color": "#F8714726",
         "text_button_bg_color": "#F87147",
         "description": "Provide food donations to help combat hunger among homeless individuals and families.",
-        "price": "Food Items"
+        "price": "77"
     },
     {
         "id": 4,
@@ -41,7 +41,7 @@
         "card_bg_color": "#0052FF26",
         "text_button_bg_color": "#0052FF",
         "description": "Donate essential healthcare supplies to support those in need of medical assistance.",
-        "price": "Donations Welcome"
+        "price": "58"
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@
         "card_bg_color": "#FF444A26",
         "text_button_bg_color": "#FF444A",
         "description": "Contribute to educational opportunities for disadvantaged children.",
-        "price": "Minimum Donation: $20"
+        "price": "20"
     },
     {
         "id": 6,
@@ -63,7 +63,7 @@
         "card_bg_color": "#F8714726",
         "text_button_bg_color": "#F87147",
         "description": "Provide emergency food assistance to families facing food scarcity due to crisis situations.",
-        "price": "Food Items"
+        "price": "30"
     },
     {
         "id": 7,
@@ -74,7 +74,7 @@
         "card_bg_color": "#0052FF26",
         "text_button_bg_color": "#0052FF",
         "description": "Support medical clinics by donating essential supplies and equipment.",
-        "price": "Donations Welcome"
+        "price": "80"
     },
     {
         "id": 8,
@@ -85,7 +85,7 @@
         "card_bg_color": "#FF444A26",
         "text_button_bg_color": "#FF444A",
         "description": "Empower communities through educational outreach programs and resources.",
-        "price": "Minimum Donation: $30"
+        "price": "30"
     },
     {
         "id": 9,
@@ -96,7 +96,7 @@
         "card_bg_color": "#F8714726",
         "text_button_bg_color": "#F87147",
         "description": "Help provide food for struggling families and individuals in your community.",
-        "price": "Food Items"
+        "price": "91"
     },
     {
         "id": 10,
@@ -107,7 +107,7 @@
         "card_bg_color": "#0052FF26",
         "text_button_bg_color": "#0052FF",
         "description": "Support initiatives that improve access to healthcare services for underserved populations.",
-        "price": "Donations Welcome"
+        "price": "44"
     },
     {
         "id": 11,
@@ -118,7 +118,7 @@
         "card_bg_color": "#FF444A26",
         "text_button_bg_color": "#FF444A",
         "description": "Donate school supplies to help students excel in their studies.",
-        "price": "School Supplies"
+        "price": "38"
     },
     {
         "id": 12,
@@ -129,6 +129,6 @@
         "card_bg_color": "#0052FF26",
         "text_button_bg_color": "#0052FF",
         "description": "Assist community health centers in providing quality healthcare to those in need.",
-        "price": "Donations Welcome"
+        "price": "61"
     }
 ]
