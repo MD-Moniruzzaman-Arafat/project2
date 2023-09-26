@@ -7,7 +7,7 @@ const Card = ({ data }) => {
     const { id, card_bg_color, category, category_bg_color, picture, text_button_bg_color, title } = data;
     return (
         <div>
-            <Link to={`donations/${id}`}>
+            <Link to={`./donations/${id}`}>
                 <div className="card w-72 shadow-xl" style={{ backgroundColor: `${card_bg_color}`, color: `${text_button_bg_color}` }}>
                     <figure><img className='w-72' src={picture} alt="Shoes" /></figure>
                     <div className="p-5">
