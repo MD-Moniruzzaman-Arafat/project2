@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DonationItem from "../DonationItem/DonationItem";
 
+
 const Donation = () => {
     const [show, setShow] = useState(false);
 
@@ -11,7 +12,7 @@ const Donation = () => {
 
     return (
         <>
-            <div className="grid grid-cols-2 gap-5 mx-20 my-10">
+            <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-5 mx-20 my-10">
                 {
                     show ? donetionItem.map((singleItem, idx) => <DonationItem key={idx} singleItem={singleItem}></DonationItem>) : donetionItem.slice(0, 4).map((singleItem, idx) => <DonationItem key={idx} singleItem={singleItem}></DonationItem>)
                 }
