@@ -11,6 +11,7 @@ import Statistics from './components/Statistics/Statistics';
 import Home from './components/Home/Home';
 import Detials from './components/Details/Detials';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import SearchItem from './components/SearchItem/SearchItem';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         loader: () => fetch('data.json'),
-        element: <Home></Home>
+        element: <Home></Home>,
       },
       {
         path: "/donation",
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         loader: () => fetch('data.json'),
         element: <Detials></Detials>
       },
+      {
+        path: "/search",
+        element: <SearchItem></SearchItem>
+      }
     ]
   },
 ]);

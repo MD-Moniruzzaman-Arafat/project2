@@ -1,4 +1,9 @@
-const Banner = () => {
+import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
+
+
+const Banner = ({ handleCategory }) => {
+
     return (
         <div className="relative text-center h-[600px] items-center">
             {/* Background image with opacity */}
@@ -10,12 +15,19 @@ const Banner = () => {
             <div className="relative flex flex-col h-[600px] justify-center items-center">
                 <h1 className="mb-5 text-5xl font-bold">I Grow By Helping People In Need</h1>
                 <div className="join">
-                    <input className="input input-bordered join-item w-96" placeholder="Search here...." />
-                    <button className="btn join-item rounded-r-lg bg-[#FF444A] text-white hover:bg-[#FF444A] text-white">Search</button>
+                    <input onChange={handleCategory} className="input input-bordered join-item w-96" placeholder="Search here...." />
+                    <NavLink to={'/search'}>
+                        <button className="btn join-item rounded-r-lg bg-[#FF444A] text-white hover:bg-[#FF444A] text-white">Search</button>
+                    </NavLink>
                 </div>
             </div>
         </div>
     );
 };
+
+Banner.propTypes = {
+    handleCategory: PropTypes.func,
+    handleSearch: PropTypes.func
+}
 
 export default Banner;
